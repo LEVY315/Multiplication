@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+}
+
+#start-screen {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#question-container {
+  font-size: 2em;
+}
+
+#timer, #score {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
